@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4.4 (395) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Projects" sketch:type="MSArtboardGroup" transform="translate(-40.000000, -40.000000)" fill="#FFFFFF">
+            <g id="back-copy" sketch:type="MSLayerGroup" transform="translate(36.000000, 36.000000)">
+                <path d="M7.8,11 L13.4,5.4 L12,4 L4,12 L12,20 L13.4,18.6 L7.8,13 L20,13 L20,11 L7.8,11 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

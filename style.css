@@ -1,0 +1,194 @@
+
+body {
+  background-color: rgb(14, 14, 14);
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  overflow: hidden;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button{
+  outline: 0;
+}
+
+.main-page {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-page > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-page  > h1 {
+  line-height: 50px;
+  font-size: 34px;
+  font-weight: 300;
+  height: 100px;
+  text-align: center;
+  width: 35%;
+}
+
+.main-page > button {
+  margin-top: 71px;
+  width: 215px;
+  height: 58px;
+  display: block;
+  background-color: transparent;
+  border: 1px solid #262626;
+  border-radius: 100px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-page > button:hover {
+  border: 1px solid white;
+}
+
+.main-page > ul {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main-page > ul > li {
+  display: inline;
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+.main-page > ul > li > a {
+  font-size: 13px;
+  letter-spacing: 3px;
+  line-height: 16px;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+.main-page > ul > li > a:hover {
+  color: white;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.invisibility {
+  visibility: hidden;
+}
+
+.underscore {
+  margin-top: 2px;
+}
+
+.projects{
+  width: 100%;
+  right: -100%;
+  position: absolute;
+  background-color: rgb(14, 14, 14);
+  transition: right 0.7s;
+}
+
+.projects > *{
+  margin-left: 219px;
+}
+
+.projects > h2{
+  margin-top: 192px;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hide{
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 1s;
+}
+
+.appears{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.projects > section{
+  width: 650px;
+}
+
+.projects > section > h1 {
+  margin-top: 70px;
+  line-height: 26px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.projects > section > h2 {
+  margin-top: 23px;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #9b9b9b;
+}
+
+.projects > section > p {
+  margin-top: 6px;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.projects > section > ul {
+  margin-top: 14px;
+}
+
+.projects > section > ul > li{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 6px 12px 6px 12px;
+  margin: 10px 20px 0 0;
+  border: solid 1px #262626;
+  border-radius: 3px;
+}
+
+.projects > section > ul > li:hover{
+  border: solid 1px #ffffff;
+}
+
+.projects > button{
+  margin: 36px 0 0 56px;
+  background-color: transparent;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.projects > button > img{
+  margin-right: 36px;
+  width: 24px;
+  height:24px;
+  vertical-align: middle;
+}
+
+.projects-display{
+  right: 0;
+  transition: right 0.7s;
+}
