@@ -85,6 +85,25 @@ button{
   color: white;
 }
 
+.main-page > p {
+  color: #9b9b9b;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 3px;
+  position:fixed;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
+
+.main-page > p > a{
+  color: #9b9b9b;
+}
+
+.main-page > p > a:hover{
+  color: white;
+}
+
 .bold {
   font-weight: 500;
 }
@@ -118,15 +137,19 @@ button{
 
 .hide{
   opacity: 0;
-  -webkit-transition: opacity 0.6s;
-  -moz-transition: opacity 0.6s;
-  -o-transition: opacity 0.6s;
-  transition: opacity 1s;
+  margin-top: 300px;
+  -webkit-transition: opacity 1s, margin-top 3s ;
+  -moz-transition: opacity 1s, margin-top 3s ;
+  -o-transition: opacity 1s, margin-top 3s ;
+  transition: opacity 1.5s, margin-top 3s ;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .appears{
   opacity: 1;
   visibility: visible;
+  margin-top: 0;
 }
 
 
