@@ -1,4 +1,8 @@
 
+html {
+  overflow: hidden;
+}
+
 body {
   background-color: rgb(14, 14, 14);
   font-family: 'Roboto', sans-serif;
@@ -6,7 +10,6 @@ body {
   height: 100vh;
   width: 100vw;
   display: table;
-  overflow: hidden;
 }
 
 ul{
@@ -191,4 +194,8 @@ button{
 .projects-display{
   right: 0;
   transition: right 0.7s;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

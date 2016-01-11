@@ -5,14 +5,13 @@
 var projectsBlock = document.getElementById('projects');
 var numberOfProjects = document.getElementsByTagName('section').length;
 var position = 0;
-var body = document.getElementsByTagName('body')[0];
+var html = document.getElementsByTagName('html')[0];
 
 document.getElementById("displayProjects").addEventListener('click', function(){
   'use strict';
 
   projectsBlock.classList.add('projects-display');
-  body.style.overflowY = 'visible';
-  body.style.overflowX = 'hidden';
+  html.style.overflowY = 'visible';
 
   setTimeout(function(){
     appears();
@@ -48,7 +47,7 @@ document.getElementById("back").addEventListener('click', function(){
   'use strict';
 
   projectsBlock.classList.remove('projects-display');
-  body.style.overflowY = 'hidden';
+  html.style.overflowY = 'hidden';
   disappears();
 
 });
