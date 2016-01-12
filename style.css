@@ -1,7 +1,4 @@
 
-html {
-  /*overflow: hidden;*/
-}
 
 body {
   background-color: rgb(14, 14, 14);
@@ -9,6 +6,8 @@ body {
   color: #ffffff;
   height: 100vh;
   width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -51,8 +50,9 @@ button {
 
 .main-page > button {
   margin-top: 71px;
-  width: 215px;
-  height: 58px;
+  /*width: 215px;*/
+  /*height: 58px;*/
+  padding: 15px 30px 15px 30px;
   display: block;
   background-color: transparent;
   border: 1px solid #262626;
@@ -91,7 +91,7 @@ button {
 
 .main-page > p {
   color: #9b9b9b;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   letter-spacing: 3px;
   position: fixed;
@@ -207,6 +207,7 @@ button {
   margin: 36px 0 0 56px;
   background-color: transparent;
   border: none;
+  position: fixed;
   font-weight: 300;
   font-size: 20px;
 }
