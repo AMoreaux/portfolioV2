@@ -21,31 +21,21 @@ document.getElementById("displayProjects").addEventListener('click', function(){
 
 function appears(){
   'use strict';
-  document.getElementsByTagName('section')[position].classList.add('appears');
-  position++;
-  setTimeout(function(){
-    if(position === numberOfProjects-1){
-      position = 0;
-      return;
-    }
-    appears(projectsBlock[position]);
-  }, 400);
+  for(var i = 0; i < 5; i++){
+    document.getElementsByTagName('section')[i].classList.add('appears' );
+
+  }
 }
 
 function disappears(){
   'use strict';
-  document.getElementsByTagName('section')[position].classList.remove('appears');
-  position++;
-  if(position === numberOfProjects-1){
-    position = 0;
-    return;
+  for(var i = 0; i < 5; i++){
+    document.getElementsByTagName('section')[i].classList.remove('appears');
   }
-  disappears(position);
 }
 
 document.getElementById("back").addEventListener('click', function(){
   'use strict';
-
   projectsBlock.classList.remove('projects-display');
   html.style.overflowY = 'hidden';
   disappears();
