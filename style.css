@@ -30,7 +30,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 370px;
+  height: 420px;
   margin: auto;
 }
 
@@ -43,7 +43,7 @@ button {
   line-height: 50px;
   font-size: 34px;
   font-weight: 300;
-  height: 100px;
+  height: 150px;
   text-align: center;
   width: 35%;
 }
@@ -142,7 +142,6 @@ button {
 .hide {
   margin-top: 70px;
   opacity: 0;
-
 }
 
 .appears {
