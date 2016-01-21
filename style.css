@@ -1,5 +1,4 @@
 
-
 body {
   background-color: rgb(14, 14, 14);
   font-family: 'Roboto', sans-serif;
@@ -32,6 +31,15 @@ button {
   right: 0;
   height: 420px;
   margin: auto;
+  opacity: 1;
+  transition: opacity 1s;
+  transition-delay: 500ms;
+}
+
+.main-page-hidden {
+  z-index: -8;
+  opacity: 0;
+  transition: opacity 0.5s
 }
 
 .main-page > * {
@@ -42,28 +50,28 @@ button {
 .main-page > h1 {
   line-height: 50px;
   font-size: 34px;
-  font-weight: 300;
+  font-weight: 400;
   height: 150px;
   text-align: center;
   width: 35%;
 }
 
 .main-page > button {
-  margin-top: 71px;
-  /*width: 215px;*/
-  /*height: 58px;*/
   padding: 15px 30px 15px 30px;
   display: block;
   background-color: transparent;
-  border: 1px solid #262626;
+  border:1px solid rgba(255, 255, 255, 0.3);
   border-radius: 100px;
   letter-spacing: 3px;
   font-size: 14px;
   font-weight: 400;
+  transition:border-color 400ms;
 }
 
 .main-page > button:hover {
-  border: 1px solid white;
+  border:1px solid rgba(255, 255, 255, 1);
+  transition:border-color 400ms;
+
 }
 
 .main-page > ul {
@@ -121,11 +129,12 @@ button {
 }
 
 .projects {
+  z-index: -1;
+  opacity: 0;
   width: 100%;
-  right: -100%;
   position: absolute;
   background-color: rgb(14, 14, 14);
-  transition: right 700ms;
+  transition: opacity 0.5s;
 }
 
 .projects > * {
@@ -151,8 +160,8 @@ button {
   -moz-transition: margin-top 1s, opacity 3s;
   -o-transition: margin-top 1s, opacity 3s;
   transition: margin-top 1s, opacity 3s;
-  -webkit-transition-timing-function:cubic-bezier(0,.72,.45,1);
-  transition-timing-function: cubic-bezier(0,.72,.45,1);
+  -webkit-transition-timing-function: cubic-bezier(0, .72, .45, 1);
+  transition-timing-function: cubic-bezier(0, .72, .45, 1);
 }
 
 .projects > section {
@@ -193,7 +202,7 @@ button {
   font-weight: 400;
   letter-spacing: 3px;
   padding: 6px 12px 6px 12px;
-  margin: 10px 20px 0 0;
+  margin: 10px 10px 0 0;
   border: solid 1px #262626;
   border-radius: 3px;
 }
@@ -219,8 +228,11 @@ button {
 }
 
 .projects-display {
-  right: 0;
-  transition: right 0.7s;
+  z-index: 4;
+  display: inherit;
+  opacity: 1;
+  transition: opacity 0.5s;
+  transition-delay: 500ms;
 }
 
 ::-webkit-scrollbar {

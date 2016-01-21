@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "no description",
   "main": "script.js",
+  "repository": "https://github.com/AMoreaux/portfolioV2.git",
   "dependencies": {
     "normalize.css": "^3.0.3"
   },
