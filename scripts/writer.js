@@ -6,7 +6,7 @@ window.onload = function () {
 
   'use strict';
 
-  var sentences = ["websites.", "beautiful APIs.", "mobile Apps."];
+  var sentences = ["websites.", "beautiful APIs.", "Angular Apps.", ];
 
   var text = document.getElementById('enum');
 

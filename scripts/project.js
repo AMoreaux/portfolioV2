@@ -15,6 +15,7 @@ document.getElementById("displayProjects").addEventListener('click', function(){
 
 function appears(){
   'use strict';
+  document.body.scrollTop = 0;
   for(var i = 0; i < 5; i++){
     document.getElementsByTagName('section')[i].classList.add('appears' );
   }
