@@ -259,12 +259,8 @@ button {
   transition-delay: 1900ms;
 }
 
-@media screen and (max-width: 768px) {
-
-  body{
-    background-color: red;
-  }
-
+@media screen and (max-width: 1280px) {
+  
   .main-page > h1 {
     width: 80%;
     font-size: 45px;
