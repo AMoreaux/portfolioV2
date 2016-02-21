@@ -295,4 +295,8 @@ button {
   .projects > section > h2 {
     font-size: 21px;
   }
+
+  .main-page > p {
+    font-size: 16px;
+  }
 }
