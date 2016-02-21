@@ -258,3 +258,25 @@ button {
 .hide:nth-of-type(5) {
   transition-delay: 1900ms;
 }
+
+@media screen and (max-width: 768px) {
+
+  body{
+    background-color: red;
+  }
+
+  .main-page > h1 {
+    width: 80%;
+    font-size: 45px;
+  }
+
+  .main-page > button {
+    font-size: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 15px 45px 25px 45px;
+  }
+
+  .main-page > ul > li > a{
+    font-size: 25px;
+  }
+}

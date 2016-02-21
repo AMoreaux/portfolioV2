@@ -1,5 +1,9 @@
 @media screen and (max-width: 768px) {
 
+  body{
+    background-color: red;
+  }
+
   .main-page > h1 {
     width: 80%;
     font-size: 45px;
