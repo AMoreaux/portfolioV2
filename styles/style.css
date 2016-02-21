@@ -260,7 +260,7 @@ button {
 }
 
 @media screen and (max-width: 1280px) {
-  
+
   .main-page > h1 {
     width: 80%;
     font-size: 45px;
@@ -269,10 +269,14 @@ button {
   .main-page > button {
     font-size: 35px;
     border: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 15px 45px 25px 45px;
+    padding: 25px 45px 25px 45px;
   }
 
   .main-page > ul > li > a{
     font-size: 25px;
+  }
+
+  .main-page > ul {
+    margin-top: 100px;
   }
 }
