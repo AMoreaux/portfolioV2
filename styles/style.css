@@ -265,7 +265,7 @@ button {
   transition-delay: 1900ms;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
   .main-page > h1 {
     width: 80%;
