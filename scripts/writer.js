@@ -6,7 +6,9 @@ window.onload = function () {
 
   'use strict';
 
-  var sentences = ["websites.", "beautiful APIs.", "Angular Apps.", ];
+  document.body.classList.add('body-visible');
+
+  var sentences = ["websites.", "beautiful APIs.", "Angular Apps."];
 
   var text = document.getElementById('enum');
 

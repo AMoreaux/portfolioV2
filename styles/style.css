@@ -3,10 +3,16 @@ body {
   background-color: rgb(14, 14, 14);
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
+  opacity: 0;
   height: 100vh;
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.body-visible{
+  opacity: 1;
+  transition: opacity 4s;
 }
 
 ul {
@@ -259,7 +265,7 @@ button {
   transition-delay: 1900ms;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
 
   .main-page > h1 {
     width: 80%;
