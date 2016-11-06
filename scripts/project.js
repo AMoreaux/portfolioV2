@@ -4,6 +4,7 @@
 
 var projectsBlock = document.getElementById('projects');
 var mainPage = document.getElementById('main-page');
+var projectNumber = 7;
 
 document.getElementById("displayProjects").addEventListener('click', function(){
   'use strict';
@@ -16,14 +17,14 @@ document.getElementById("displayProjects").addEventListener('click', function(){
 function appears(){
   'use strict';
   document.body.scrollTop = 0;
-  for(var i = 0; i < 5; i++){
+  for(var i = 0; i < projectNumber; i++){
     document.getElementsByTagName('section')[i].classList.add('appears' );
   }
 }
 
 function disappears(){
   'use strict';
-  for(var i = 0; i < 5; i++){
+  for(var i = 0; i < projectNumber; i++){
     document.getElementsByTagName('section')[i].classList.remove('appears');
   }
 }
